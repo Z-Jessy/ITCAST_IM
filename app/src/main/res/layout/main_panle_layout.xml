@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.itcast.im.itcast_im.ui.MainPanleLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#18b6ef">
+
+        <ImageView
+            android:id="@+id/iv_main_head"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/head" />
+
+        <TextView
+            android:id="@+id/tv_main_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="会话"
+            android:textColor="#fff"
+            android:textSize="28sp" />
+
+    </RelativeLayout>
+
+    <cn.itcast.im.itcast_im.ui.NoScrollViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#000" />
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#dedede"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_session"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/rb_selector_session"
+            android:gravity="center"
+            android:text="会话"
+            android:textColor="@drawable/rb_tv_color_selector" />
+
+        <RadioButton
+            android:id="@+id/rb_contact"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/rb_selector_contact"
+            android:gravity="center"
+            android:text="联系人"
+            android:textColor="@drawable/rb_tv_color_selector" />
+
+
+    </RadioGroup>
+
+
+</cn.itcast.im.itcast_im.ui.MainPanleLinearLayout>

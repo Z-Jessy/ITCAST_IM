@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.itcast.im.myslidingmenu.MyDrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mdl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <include android:id="@+id/ll_menu_layout" layout="@layout/left_menu_layout"/>
+
+    <include android:id="@+id/main_panle_layout" layout="@layout/main_panle_layout"/>
+
+
+</cn.itcast.im.myslidingmenu.MyDrawerLayout>

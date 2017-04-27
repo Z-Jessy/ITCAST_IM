@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ITCAST_IM</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="chat_title_str" >与%1$s的聊天中</string>
+</resources>
